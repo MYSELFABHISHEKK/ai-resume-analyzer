@@ -1,87 +1,47 @@
-# Welcome to React Router!
+## 📋 <a name="table">Table of Contents</a>
 
-A modern, production-ready template for building full-stack React applications using React Router.
+1. ✨ [Introduction](#introduction)  
+2. ⚙️ [Tech Stack](#tech-stack)  
+3. 🔋 [Features](#features)  
+4. 🤸 [Quick Start](#quick-start)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## <a name="introduction">✨ Introduction</a>
 
-## Features
+Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-## Getting Started
+- **[React](https://react.dev/)** – Popular library for building interactive UIs.  
+- **[React Router v7](https://reactrouter.com/)** – For nested routes, loaders, SSR, and error boundaries.  
+- **[Puter.js](https://puter.com)** – Adds serverless auth, storage, and AI tools right in the browser.  
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for building custom UI efficiently.  
+- **[TypeScript](https://www.typescriptlang.org/)** – JavaScript superset with type safety and tooling support.  
+- **[Vite](https://vite.dev/)** – Lightning-fast build tool with HMR and Rollup support.  
+- **[Zustand](https://github.com/pmndrs/zustand)** – Simple state management with hooks and no boilerplate.
 
-### Installation
+## <a name="features">🔋 Features</a>
 
-Install the dependencies:
+👉 **Browser-based authentication** – Fully client-side auth using Puter.js.  
+👉 **Resume upload & secure storage** – Upload resumes once and store reliably.  
+👉 **AI-powered ATS scoring** – Get resume feedback and scores for specific jobs.  
+👉 **Reusable, modular components** – Write once, use across multiple pages.  
+👉 **Cross-device responsive UI** – Fully functional across desktops, tablets, and phones.  
+👉 **Modern UX/UI** – Built using Tailwind CSS and shadcn/ui for sleek, fast interfaces.
 
-```bash
-npm install
-```
+## <a name="quick-start">🤸 Quick Start</a>
 
-### Development
+Set up the project locally in a few steps.
 
-Start the development server with HMR:
+### Prerequisites
 
-```bash
-npm run dev
-```
+Make sure the following are installed:
 
-Your application will be available at `http://localhost:5173`.
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/en)  
+- [npm](https://www.npmjs.com/)
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+### Clone the Repository
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+git clone https://github.com/MYSELFABHISHEKK/ai-resume-analyzer.git
+cd ai-resume-analyzer
