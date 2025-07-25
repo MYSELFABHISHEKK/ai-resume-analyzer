@@ -3,7 +3,6 @@ import Navbar from "~/components/Navbar";
 import { resumes } from "../../constants";
 import ResumeCard from "~/components/ResumeCard";
 import { usePuterStore } from "~/lib/puter";
-
 import { useNavigate } from "react-router";
 import { useEffect } from "react";
 
@@ -19,10 +18,10 @@ export default function Home() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        if (auth && !auth.isAuthenticated) {
+        if (!auth.isAuthenticated) {
             navigate("/auth?next=/");
         }
-    }, [auth?.isAuthenticated, navigate]);
+    }, [auth.isAuthenticated, navigate]);
 
     return (
         <main className="bg-[url('/images/bg-main.svg')] bg-cover">
@@ -42,6 +41,5 @@ export default function Home() {
                 )}
             </section>
         </main>
-
     );
 }
